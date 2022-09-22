@@ -99,6 +99,10 @@ footer{
     display: flex;
 }
 
+.footer-col-big{
+    display: flex;
+}
+
 .end-col{
     padding: 22px;
     font-size: 13px;
@@ -112,11 +116,13 @@ footer{
     position: relative;
     flex-direction: column;
     padding-left: 2px;
+    padding: 0 5px;
 }
 
 .footer-icons{
     font-size: 10px;
     text-align: center;
+    padding: 0 5px;
 }
 
 .footer-icon-name{
@@ -131,3 +137,6 @@ footer{
    font-size: 10px;
 }
 
+.share{
+    color: lightgreen;
+}
