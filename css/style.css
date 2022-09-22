@@ -86,3 +86,48 @@ footer{
     background-color: #2222;
     height: 60px;
 }
+
+.footer-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.footer-col-small{
+    padding-left: 5px;
+    display: flex;
+}
+
+.end-col{
+    padding: 22px;
+    font-size: 13px;
+    color: red;
+    background-color: #4a4a4a;
+    cursor: pointer;
+}
+
+.footer-btn{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    padding-left: 2px;
+}
+
+.footer-icons{
+    font-size: 10px;
+    text-align: center;
+}
+
+.footer-icon-name{
+    font-size: 10px;
+    padding-top: 2px
+}
+
+.chevron{
+   padding-top: 5px;
+   padding-left: 5px;
+   padding-right: 5px;
+   font-size: 10px;
+}
+
