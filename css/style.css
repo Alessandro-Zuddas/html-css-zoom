@@ -6,3 +6,51 @@
     padding: 0;
     font-family: 'Lato', sans-serif;
 }
+
+/* DEBUG */
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+/* HEADER */
+
+header{
+    background-color: black;
+    height: 30px;
+    text-align: right;
+    line-height: 30px;
+}
+
+.header-button{
+    color: white;
+    background-color: gray;
+    border-radius: 10px;
+    padding: 5px 5px;
+    margin-top: 2px;
+}
+
+.header-icon{
+    padding: 5px 5px;
+    border-radius: 10px;
+    background-color: grey;
+    color: white;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+
+/* MAIN */
+
+main{
+    height: calc(100% - 80px);
+    width: 90%;
+    margin: auto;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #2222;
+    height: 50px;
+}
