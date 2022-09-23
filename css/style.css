@@ -7,7 +7,6 @@
     font-family: 'Lato', sans-serif;
 }
 
-/* DEBUG */
 
 body{
     background-color: black;
@@ -117,6 +116,7 @@ footer{
     flex-direction: column;
     padding-left: 2px;
     padding: 0 5px;
+    cursor: pointer;
 }
 
 .footer-icons{
